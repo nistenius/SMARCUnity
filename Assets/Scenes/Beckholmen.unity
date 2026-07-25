@@ -247,6 +247,16 @@ PrefabInstance:
       propertyPath: m_ParentAnchorPosition.z
       value: -0.67700195
       objectReference: {fileID: 0}
+    - target: {fileID: 7787045772659936937, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
+        type: 3}
+      propertyPath: percentage
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787045772659936937, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
+        type: 3}
+      propertyPath: resetValue
+      value: 42
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
