@@ -352,6 +352,103 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!1 &155926809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155926810}
+  m_Layer: 0
+  m_Name: Node2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155926810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155926809}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.96443, y: 1.5, z: 84.60533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1795955895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &190428471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190428472}
+  m_Layer: 0
+  m_Name: DollyNodes_FlyThrough
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190428472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190428471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1314886452}
+  - {fileID: 935434167}
+  - {fileID: 1674928263}
+  - {fileID: 1382216740}
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &309024697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309024698}
+  m_Layer: 0
+  m_Name: Node0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309024698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309024697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.15551, y: 1.5, z: 34.472366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1795955895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &366360331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6772861979278630077, guid: 890edb2748d8b977f8ddd37a99d483df,
@@ -366,6 +463,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4335763432639760613, guid: c3e09b751b95749d099c8c6734706a5b,
+        type: 3}
+      propertyPath: HoopMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2acd09bc6dcd46e6807466752a816f9, type: 2}
+    - target: {fileID: 4335763432639760613, guid: c3e09b751b95749d099c8c6734706a5b,
+        type: 3}
+      propertyPath: LogHoopDiagnostics
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5694857187772264144, guid: c3e09b751b95749d099c8c6734706a5b,
         type: 3}
       propertyPath: m_Name
@@ -426,6 +533,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3e09b751b95749d099c8c6734706a5b, type: 3}
+--- !u!114 &415450808 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4335763432639760613, guid: c3e09b751b95749d099c8c6734706a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 415450807}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8229df508b1924afaadccedf185acc23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::ROS.Subscribers.MissionWPHoop_Sub
+--- !u!1 &478783342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 478783343}
+  m_Layer: 0
+  m_Name: VideoRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &478783343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478783342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1927019387}
+  - {fileID: 977646873}
+  - {fileID: 949803848}
+  - {fileID: 1397480009}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &486899809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486899810}
+  m_Layer: 0
+  m_Name: DrainCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486899810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486899809}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.871552, y: 26, z: 66.541435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531842790 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 74db90972d8cca66d8a37d27e10e2e2e,
@@ -454,6 +639,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 5482604918685053864, guid: 74db90972d8cca66d8a37d27e10e2e2e, type: 3}
+--- !u!1 &550184344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550184345}
+  m_Layer: 0
+  m_Name: DockSouthTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &550184345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550184344}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.15551, y: 0, z: 34.472366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &623570476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623570477}
+  m_Layer: 0
+  m_Name: DrainCamTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &623570477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623570476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.449974, y: -3.75, z: 68.215706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &675633624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -821,6 +1068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292738924317821822, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 317098350270417748, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
@@ -1437,6 +1689,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3019459981223742242, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3068134868900063813, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1662,6 +1919,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3596954629389151972, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3602937428700113639, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1693,6 +1955,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3878820344025228804, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112549203636867363, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -2002,6 +2294,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4875427536481351231, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 4923541776880569569, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2136,6 +2433,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528580717398275120, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528580717398275120, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5555701718570379701, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
@@ -2483,6 +2790,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7353731968693097012, guid: 28d89498426c2a64ca6aa9730b91a682,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433014524785222856, guid: 28d89498426c2a64ca6aa9730b91a682,
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
@@ -2847,6 +3159,1842 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d89498426c2a64ca6aa9730b91a682, type: 3}
+--- !u!1 &769602545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769602546}
+  m_Layer: 0
+  m_Name: FlyInHoldAbove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769602546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769602545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 61.4, y: 5.848, z: 111.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &864037445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1790489824218036950, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.64567
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.14567
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 48.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392480749399067361, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601579428059839937, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: Surface
+      value: 
+      objectReference: {fileID: 1519692097247348595}
+    - target: {fileID: 7601579428059839937, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: Deployed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601579428059839937, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: ActualDepthM
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601579428059839937, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: RefusalReason
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211118954317170530, guid: 890ad8c5528e7458bac1949e033021ea,
+        type: 3}
+      propertyPath: m_Name
+      value: datacube_station_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 890ad8c5528e7458bac1949e033021ea, type: 3}
+--- !u!1 &935434166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935434167}
+  m_Layer: 0
+  m_Name: FT1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935434167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935434166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.811073, y: -4.5, z: 44.11332}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190428472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &949803847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949803848}
+  - component: {fileID: 949803849}
+  m_Layer: 0
+  m_Name: CinematicDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &949803848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949803847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1795955895}
+  - {fileID: 190428472}
+  - {fileID: 550184345}
+  - {fileID: 769602546}
+  - {fileID: 486899810}
+  - {fileID: 623570477}
+  - {fileID: 1040040813}
+  - {fileID: 2098207198}
+  m_Father: {fileID: 478783343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &949803849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949803847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5443d0dbf98534eaf87e1df6351c407b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::Smarc.Cinematics.CinematicDirector
+  CinematicCamera: {fileID: 0}
+  CameraDepth: 100
+  Shots:
+  - Name: 1 fly-in low from the south
+    Kind: 0
+    Duration: 12
+    BlendSeconds: 0
+    Advance: 2
+    MinSeconds: 12
+    MaxSeconds: 120
+    SteadySeconds: 0.8
+    MoveSpeedThreshold: 0.12
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 58
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 0
+    SonarMapVisible: 0
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 1
+    SonarBeamsVisible: 0
+    SonarRayLinesVisible: 0
+    WaterPresetName: 
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes:
+    - {fileID: 309024698}
+    - {fileID: 1124608610}
+    - {fileID: 155926810}
+    - {fileID: 1323761430}
+    LookAlongPath: 1
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 0
+    EndOffsetInTargetFrame: {x: 0, y: 6, z: 0}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 1b hold above, look south down the dock
+    Kind: 2
+    Duration: 4
+    BlendSeconds: 2.5
+    Advance: 1
+    MinSeconds: 4
+    MaxSeconds: 0
+    SteadySeconds: 0.8
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 50
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 0
+    SonarMapVisible: 0
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 0
+    SonarRayLinesVisible: 0
+    WaterPresetName: 
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 550184345}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 769602546}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 2a the dive, seen from above
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 1.2
+    Advance: 3
+    MinSeconds: 4
+    MaxSeconds: 90
+    SteadySeconds: 0.6
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 1.5
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 52
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 1
+    ParticlesEnabled: 0
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: baltic
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0.15, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.5, y: 4, z: -6}
+    PositionDamping: 0.5
+    RotationDamping: 0.3
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 2b plunge in after it, closing to SAM's own 3rd-person pose
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 1.2
+    Advance: 3
+    MinSeconds: 8
+    MaxSeconds: 60
+    SteadySeconds: 1
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 2.5
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 55
+    NearClip: 0.04
+    FarClip: 3000
+    HudVisible: 1
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: baltic
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0.1, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 0.28, y: 0.21, z: -1.29}
+    PositionDamping: 0.45
+    RotationDamping: 0.3
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 6
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 1.8, y: -2.5, z: -5}
+  - Name: 3 map building, wide third person
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 0.8
+    Advance: 7
+    MinSeconds: 12
+    MaxSeconds: 80
+    SteadySeconds: 0.5
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 18
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 55
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 1
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: clear_demo
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.7
+    RotationDamping: 0.4
+    YawOnly: 1
+    UseMapFraming: 1
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 4 waypoint pass
+    Kind: 3
+    Duration: 10
+    BlendSeconds: 0
+    Advance: 8
+    MinSeconds: 3
+    MaxSeconds: 50
+    SteadySeconds: 2.5
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 46
+    NearClip: 0.02
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: baltic
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4.5
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3.5
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 5 map building again, wide
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 0.8
+    Advance: 7
+    MinSeconds: 14
+    MaxSeconds: 100
+    SteadySeconds: 0.5
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 18
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 55
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 1
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: clear_demo
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.7
+    RotationDamping: 0.4
+    YawOnly: 1
+    UseMapFraming: 1
+    MapFramingDistance: 17
+    MapFramingHeight: 6.5
+    MapFramingSide: -3
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 6 waypoint pass, later hoop
+    Kind: 3
+    Duration: 10
+    BlendSeconds: 0
+    Advance: 8
+    MinSeconds: 3
+    MaxSeconds: 50
+    SteadySeconds: 2.5
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 42
+    NearClip: 0.02
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: baltic
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.4
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 5.5
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.18
+    WPMinCutInterval: 3.5
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 7 the map fills in, waiting for the ascent
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 0.8
+    Advance: 5
+    MinSeconds: 10
+    MaxSeconds: 240
+    SteadySeconds: 2
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.35
+    AscentRate: 0.05
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 58
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 1
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: clear_demo
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.8
+    RotationDamping: 0.45
+    YawOnly: 1
+    UseMapFraming: 1
+    MapFramingDistance: 20
+    MapFramingHeight: 8
+    MapFramingSide: 3.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 8 follow it up through the surface
+    Kind: 1
+    Duration: 10
+    BlendSeconds: 0.6
+    Advance: 4
+    MinSeconds: 4
+    MaxSeconds: 120
+    SteadySeconds: 1.2
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 60
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 1
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 0
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 1
+    SonarRayLinesVisible: 0
+    WaterPresetName: baltic
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 2.2, y: -2.6, z: -4}
+    PositionDamping: 0.7
+    RotationDamping: 0.4
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 9 zoom out from the south while the dock drains
+    Kind: 4
+    Duration: 34
+    BlendSeconds: 1.5
+    Advance: 12
+    MinSeconds: 34
+    MaxSeconds: 75
+    SteadySeconds: 0.5
+    MoveSpeedThreshold: 0.12
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.35
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 5
+    AutoAdvance: 0
+    FieldOfView: 55
+    NearClip: 0.08
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 0
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 0
+    SonarRayLinesVisible: 0
+    WaterPresetName: clear_demo
+    StartDrainAtShotStart: 1
+    KeepDockDrained: 0
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes: []
+    LookAlongPath: 0
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 1
+    AlignPathToTargetHeading: 1
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 14
+    EndRadius: 120
+    StartHeight: 3
+    EndHeight: 70
+    DegreesSwept: 170
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 1040040813}
+    OrbitEndLookAt: {fileID: 2098207198}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  - Name: 10 fly through the empty dock, south to north
+    Kind: 0
+    Duration: 20
+    BlendSeconds: 1.5
+    Advance: 0
+    MinSeconds: 0
+    MaxSeconds: 0
+    SteadySeconds: 0.8
+    MoveSpeedThreshold: 0.15
+    SubmergeDepth: 0.6
+    SurfaceDepth: 0.15
+    AscentRate: 0.06
+    HoopsToClear: 1
+    ApproachRange: 16
+    IdleSeconds: 12
+    AutoAdvance: 0
+    FieldOfView: 62
+    NearClip: 0.05
+    FarClip: 3000
+    HudVisible: 0
+    ParticlesEnabled: 0
+    SonarMapVisible: 1
+    SonarMapLabelVisible: 1
+    ClearMapAtStart: 0
+    SonarBeamsVisible: 0
+    SonarRayLinesVisible: 0
+    WaterPresetName: clear_demo
+    StartDrainAtShotStart: 0
+    KeepDockDrained: 1
+    DrainAnchor: {fileID: 0}
+    DrainPositionWS: {x: 0, y: 0, z: 0}
+    DrainLookAt: {fileID: 0}
+    DrainLookAtWS: {x: 0, y: 0, z: 0}
+    DrainCameraRiseM: 6
+    Nodes:
+    - {fileID: 1314886452}
+    - {fileID: 935434167}
+    - {fileID: 1674928263}
+    - {fileID: 1382216740}
+    LookAlongPath: 1
+    Ease:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AnchorEndToTarget: 0
+    AlignPathToTargetHeading: 0
+    EndOffsetInTargetFrame: {x: 1.6, y: 5, z: -11}
+    LookAt: {fileID: 0}
+    LookAtName: 
+    LookAtOffset: {x: 0, y: 0, z: 0}
+    FollowTarget: {fileID: 0}
+    FollowTargetName: base_link
+    FollowOffset: {x: 1.2, y: 1.1, z: -4}
+    PositionDamping: 0.45
+    RotationDamping: 0.25
+    YawOnly: 1
+    UseMapFraming: 0
+    MapFramingDistance: 15
+    MapFramingHeight: 5.5
+    MapFramingSide: 2.5
+    Anchor: {fileID: 0}
+    PositionWS: {x: 0, y: 0, z: 0}
+    WPLateralOffset: 0
+    WPVerticalOffset: -0.6
+    WPMaxLateralOffset: 2
+    WPBeyondOffset: 4
+    WPLatchToOneHoop: 1
+    WPPanDamping: 0.14
+    WPMinCutInterval: 3
+    WPMaxRange: 60
+    OrbitCenter: {fileID: 0}
+    StartRadius: 12
+    EndRadius: 120
+    StartHeight: 2
+    EndHeight: 70
+    DegreesSwept: 160
+    StartBearingDeg: 0
+    OrbitEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    OrbitEndAnchor: {fileID: 0}
+    OrbitEndLookAt: {fileID: 0}
+    ZoomInSeconds: 0
+    ZoomStartMultiplier: 3
+    ZoomStartOffset: {x: 0, y: 0, z: 0}
+  CurrentShot: 0
+  StartInCinematicMode: 0
+  AutoAdvanceEnabled: 1
+  FallbackMaxSeconds: 120
+  MinShotSeconds: 1.5
+  ManualGraceSeconds: 3
+  SpeedSmoothingSeconds: 0.6
+  HudRoots: []
+  HudRootNames:
+  - Canvas-Top
+  AlwaysHideNames:
+  - Canvas-Left
+  - Canvas-Right
+  - Canvas-Bottom
+  - Canvas-Under
+  - Canvas-Over
+  Particles: {fileID: 1927019386}
+  SonarMap: {fileID: 977646872}
+  Hoops: {fileID: 415450808}
+  Drain: {fileID: 1397480010}
+  WaterPreset: {fileID: 1519692097247348597}
+  SonarBeams: []
+  Surface: {fileID: 1519692097247348595}
+  VehicleName: sam_auv_v1
+  Vehicle: {fileID: 0}
+  VehicleAimChildName: base_link
+  DisableScriptsOnOtherCameras:
+  - FlyCamera
+  - DragZoomCamera
+  - SmoothFollow
+  - StartLookingAtRobots
+  - TopDownOrthoCam
+  ToggleCinematicKey: 102
+  NextShotKey: 103
+  PrevShotKey: 101
+  RestartShotKey: 100
+  ToggleHudKey: 99
+  ToggleSonarMapKey: 98
+  ClearSonarMapKey: 97
+  ToggleOverlayKey: 96
+  ToggleAutoAdvanceKey: 95
+  ShowOverlay: 1
+  LastFilmedHoopIndex: -1
+--- !u!1 &977646871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977646873}
+  - component: {fileID: 977646872}
+  m_Layer: 0
+  m_Name: SonarMapAccumulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &977646872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977646871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1f97e66e8f544beaed8fe880d07c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::Visualizers.SonarMapAccumulator
+  RobotName: sam_auv_v1
+  AutoFindSonars: 1
+  Sonars: []
+  IncludeMBES: 1
+  IncludeSSS: 0
+  IncludeFLS: 1
+  TapEverySonarIfFilterMatchesNone: 1
+  SampleHz: 5
+  DecimationStride: 3
+  MinIntensity: 0.02
+  VoxelSize: 0.2
+  IgnoreHitsOnRobot: 1
+  DiscardHitsAboveWater: 1
+  AboveWaterMarginM: 0.1
+  WaterPlaneSource: {fileID: 1519692097247348595}
+  MaxPoints: 300000
+  PointsPerChunk: 40000
+  PointSize: 0.14
+  ColorBy: 0
+  DepthRampRelativeToWaterPlane: 1
+  DepthRampShallowM: 0
+  DepthRampDeepM: 8
+  DepthRampTop: 0
+  DepthRampBottom: -14
+  Ramp:
+    serializedVersion: 2
+    key0: {r: 0.62, g: 0.94, b: 1, a: 1}
+    key1: {r: 0.28, g: 0.68, b: 0.95, a: 1}
+    key2: {r: 0.1, g: 0.32, b: 0.72, a: 0}
+    key3: {r: 0.02, g: 0.06, b: 0.26, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 22937
+    ctime2: 45875
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  MapMaterial: {fileID: 2100000, guid: 06c47cfeb488c49eaace5fac9f1fbd63, type: 2}
+  EmissiveIntensity: 2.5
+  Visible: 1
+  AccumulateWhileHidden: 1
+  ShowLabel: 1
+  MapLabel: sonar map (ground-truth posed)
+  MapSubLabel: "sonar returns placed from simulation ground-truth pose \u2014 not
+    SLAM"
+  LabelCorner: 2
+  LabelScale: 0.018
+  LabelShowsPointCount: 1
+  ClearOnPlanRestart: 1
+  DiagnosticIntervalSec: 10
+--- !u!4 &977646873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977646871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 478783343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &986099251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2965,6 +5113,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e8b16e49eceb9b45ac952e49e6369bc, type: 3}
+--- !u!1 &1040040812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040040813}
+  m_Layer: 0
+  m_Name: OrbitEndPose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040040813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040040812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.51661, y: 42, z: 10.36998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1124608609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1124608610}
+  m_Layer: 0
+  m_Name: Node1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1124608610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124608609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46.794415, y: 1.5, z: 58.57475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1795955895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1296880654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3117855183863169850, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
@@ -3110,6 +5320,176 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!1 &1314886451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1314886452}
+  m_Layer: 0
+  m_Name: FT0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314886452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314886451}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.84439, y: -4.5, z: 15.19046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190428472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1323761429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1323761430}
+  m_Layer: 0
+  m_Name: Node3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1323761430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323761429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.541107, y: 4, z: 104.85133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1795955895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1382216739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1382216740}
+  m_Layer: 0
+  m_Name: FT3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1382216740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382216739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.806664, y: -4.5, z: 105.81543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190428472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1397480008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397480009}
+  - component: {fileID: 1397480010}
+  m_Layer: 0
+  m_Name: DockDrainDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1397480009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397480008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 478783343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1397480010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397480008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0345889f4e84af08990161769f9647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::SmarcGUI.Water.DockDrainDirector
+  Surface: {fileID: 1519692097247348595}
+  DrainDepthM: 7.5
+  DrainSeconds: 25
+  DrainEase:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VehicleName: sam_auv_v1
+  VehicleAimChildName: base_link
+  SurfacedDepthM: 0.35
+  IdleSpeedThreshold: 0.12
+  RequiredIdleSeconds: 5
+  BypassGateForRehearsal: 0
 --- !u!1001 &1513766696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3607,6 +5987,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56cc41661ac73dacfbe6ff3a301db6ab, type: 3}
+--- !u!1 &1674928262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674928263}
+  m_Layer: 0
+  m_Name: FT2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1674928263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674928262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 51.30887, y: -4.5, z: 74.96437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190428472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1795955894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795955895}
+  m_Layer: 0
+  m_Name: DollyNodes_FlyIn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795955895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795955894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 309024698}
+  - {fileID: 1124608610}
+  - {fileID: 155926810}
+  - {fileID: 1323761430}
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1927019385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927019387}
+  - component: {fileID: 1927019386}
+  m_Layer: 0
+  m_Name: UnderwaterParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1927019386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927019385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddcc0d1feec7e403e8b27f6af6388048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::SmarcGUI.Water.UnderwaterParticles
+  TargetCamera: {fileID: 0}
+  RecheckCameraSec: 0.5
+  Surface: {fileID: 1519692097247348595}
+  BoxWidthHeight: {x: 24, y: 16}
+  BoxDepth: 26
+  BoxForwardOffset: 9
+  ParticlesPerCubicMetre: 0.06
+  MaxParticles: 3000
+  SizeRange: {x: 0.01, y: 0.045}
+  SinkSpeed: 0.012
+  DriftSpeed: 0.02
+  LifetimeRange: {x: 18, y: 40}
+  ParticleColor: {r: 0.85, g: 0.88, b: 0.78, a: 0.55}
+  ParticleMaterial: {fileID: 2100000, guid: 3cfe36934a53f4fa6af50b1d29c67c6c, type: 2}
+  GenerateDotTexture: 1
+  Enabled: 1
+  UnderwaterOnly: 1
+  UnderwaterMargin: 0.15
+  ClearOnSurface: 1
+--- !u!4 &1927019387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927019385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 478783343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2077369374 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7931408772440750850, guid: 78d04dcbae40bc646a35e455b2c6fc2b,
@@ -3752,6 +6261,37 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!1 &2098207197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098207198}
+  m_Layer: 0
+  m_Name: OrbitEndLookAt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2098207198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098207197}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.27555, y: 0, z: 103.88724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 949803848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1519692097247348594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3820,6 +6360,141 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2512615998805554969, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 8.522726
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512615998805554969, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512615998805554969, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.8556498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512615998805554969, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -1.1363635
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512615998805554969, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: endSmoothness
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: startSmoothness
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: heightScattering
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: ripplesWindSpeed
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: ambientScattering
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: causticsIntensity
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: refractionColor.b
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: refractionColor.g
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: refractionColor.r
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: scatteringColor.b
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: scatteringColor.g
+      value: 0.205
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: scatteringColor.r
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: absorptionDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: maxRefractionDistance
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: displacementScattering
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: directLightTipScattering
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: directLightBodyScattering
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: underWaterScatteringColor.b
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: underWaterScatteringColor.g
+      value: 0.175
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: underWaterScatteringColor.r
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: absorptionDistanceMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      propertyPath: underWaterAmbientProbeContribution
+      value: 0.85
+      objectReference: {fileID: 0}
     - target: {fileID: 9145419270546139087, guid: 890edb2748d8b977f8ddd37a99d483df,
         type: 3}
       propertyPath: m_Name
@@ -3841,8 +6516,107 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1556126429}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1015182924242810403, guid: 890edb2748d8b977f8ddd37a99d483df,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1519692097247348597}
   m_SourcePrefab: {fileID: 100100000, guid: 890edb2748d8b977f8ddd37a99d483df, type: 3}
+--- !u!114 &1519692097247348595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3091775019189789295, guid: 890edb2748d8b977f8ddd37a99d483df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1519692097247348594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519692097247348596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f6fd535518f5540b4bcc3099582f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1519692097247348596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1015182924242810403, guid: 890edb2748d8b977f8ddd37a99d483df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1519692097247348594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1519692097247348597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519692097247348596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3365b196bc04476996038bafc96b1e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SMARC.SMARCAssets::SmarcGUI.Water.BalticWaterPreset
+  Surface: {fileID: 1519692097247348595}
+  ActivePreset: baltic
+  ApplyOnStart: 0
+  VerboseApply: 0
+  Presets:
+  - Name: clear_demo
+    AbsorptionDistance: 56.3
+    ScatteringColor: {r: 0, g: 0.21404114, b: 0.31854683, a: 1}
+    RefractionColor: {r: 0.033104762, g: 0.26327342, b: 0.26327342, a: 1}
+    MaxRefractionDistance: 1.926
+    AmbientScattering: 0.597
+    HeightScattering: 0
+    DisplacementScattering: 0
+    DirectLightTipScattering: 0.2
+    DirectLightBodyScattering: 0.2
+    Caustics: 1
+    CausticsIntensity: 0.5
+    UnderWater: 1
+    AbsorptionDistanceMultiplier: 1
+    UnderWaterAmbientProbeContribution: 1
+    UnderWaterScatteringColor: {r: 0, g: 0.27, b: 0.23, a: 1}
+    UnderWaterRefraction: 0
+    StartSmoothness: 0.88905823
+    EndSmoothness: 0.7890582
+    RipplesWindSpeed: 2.1
+  - Name: baltic
+    AbsorptionDistance: 6
+    ScatteringColor: {r: 0.105, g: 0.205, b: 0.15, a: 1}
+    RefractionColor: {r: 0.09, g: 0.18, b: 0.14, a: 1}
+    MaxRefractionDistance: 1.1
+    AmbientScattering: 0.78
+    HeightScattering: 0.2
+    DisplacementScattering: 0.18
+    DirectLightTipScattering: 0.35
+    DirectLightBodyScattering: 0.35
+    Caustics: 1
+    CausticsIntensity: 0.12
+    UnderWater: 1
+    AbsorptionDistanceMultiplier: 1
+    UnderWaterAmbientProbeContribution: 0.85
+    UnderWaterScatteringColor: {r: 0.085, g: 0.175, b: 0.13, a: 1}
+    UnderWaterRefraction: 0
+    StartSmoothness: 0.82
+    EndSmoothness: 0.72
+    RipplesWindSpeed: 2.6
+  - Name: baltic_murky
+    AbsorptionDistance: 3.5
+    ScatteringColor: {r: 0.115, g: 0.19, b: 0.13, a: 1}
+    RefractionColor: {r: 0.095, g: 0.165, b: 0.12, a: 1}
+    MaxRefractionDistance: 0.8
+    AmbientScattering: 0.88
+    HeightScattering: 0.25
+    DisplacementScattering: 0.22
+    DirectLightTipScattering: 0.4
+    DirectLightBodyScattering: 0.4
+    Caustics: 1
+    CausticsIntensity: 0.05
+    UnderWater: 1
+    AbsorptionDistanceMultiplier: 0.85
+    UnderWaterAmbientProbeContribution: 0.7
+    UnderWaterScatteringColor: {r: 0.095, g: 0.16, b: 0.115, a: 1}
+    UnderWaterRefraction: 0
+    StartSmoothness: 0.78
+    EndSmoothness: 0.68
+    RipplesWindSpeed: 3
 --- !u!108 &6568134154068274914 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 7951356151168071050, guid: 890edb2748d8b977f8ddd37a99d483df,
@@ -3857,6 +6631,8 @@ SceneRoots:
   - {fileID: 1519692097247348594}
   - {fileID: 675633624}
   - {fileID: 1513766696}
+  - {fileID: 864037445}
   - {fileID: 986099251}
   - {fileID: 415450807}
   - {fileID: 1628697980}
+  - {fileID: 478783343}
