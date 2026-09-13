@@ -1,9 +1,9 @@
 [SAMBallastTrim] at the OPERATING pose, 3.0 s in -- THIS is the trim that acts
 [SAMBallastTrim] site rho 997 kg/m3, displacement 16.901 L (27 strips, per-point volumes) -> B = 165.30 N
    ballast 0.5648 kg total = port 0.2824 + stbd 0.2824, at x +/-0.070, y -0.030, z +0.305 APPLIED
-   solve at this density wants 0.5000 kg at z +0.3762 (reported only)
-   total 16.9151 kg, CB (base_link) (0.00, 0.00, 0.00), CG (0.00, -0.01, 0.00)
-   BG 11.27 mm, longitudinal CB-CG 0.96 mm -> pitch moment 0.160 N m, roll moment -0.013 N m
+   solve at this density wants 0.5000 kg at z +0.2952 (reported only)
+   total 16.9151 kg, CB (base_link) (0.00, 0.00, 0.00), CG (0.00, -0.01, 0.01)
+   BG 11.27 mm, longitudinal CB-CG -1.42 mm -> pitch moment -0.236 N m, roll moment -0.010 N m
    VBS   5 %: B-W +0.46 N  FLOATS   (target: floats)
    VBS  50 %: B-W -0.64 N  off neutral
    VBS 100 %: B-W -1.86 N  SINKS
