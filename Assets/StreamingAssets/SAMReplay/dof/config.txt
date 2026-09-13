@@ -25,13 +25,23 @@ trim_displaced_litres=16.90
 # counted but never felt, so it carried that error as extra lead.  With the two ArticulationBodies
 # enabled the solver feels that mass and 1.6145 kg is 1.05 kg too heavy -- MEASURED in Play, the
 # SAMBallastTrim report read "VBS 5 %: B-W -9.83 N sinks".
-# Re-solved against the SIMULATED CG (ballast_trim.py --neutral-vbs 24 --sim-ref, which corrects
-# base_link's UrdfInertial CoM re-push, -0.08811 kg m): 0.5648 kg at z +0.46086.
+# 2026-09-14: station RE-SOLVED against the SOLVER'S OWN composite CG, measured per link in Play
+# (ballast_trim.py --sim-cg-audit). The earlier +0.46086 came from --sim-ref, which back-solved the
+# moment from a SAMBallastTrim report -- and SAMBallastTrim computes its CG in Start(), before the
+# rig commands LCG/VBS, so its battery sits at the serialised pose, not at LCG 50 %. That was 8.4 mm
+# of CG and a 34.8 deg nose-up hang.
+# Re-solved AGAIN once the LCG was made to ARRIVE before the audit is taken: battery_link sat at
+# z +0.0858 / +0.0630 / +0.0694 in three runs that all commanded LCG 50 %, i.e. 2.7 kg over 23 mm
+# = 3.7 mm of composite CG. With the arrival wait it repeats to 12 um.
+# And the LCG/VBS drives were SPRINGS: stiffness 1000 N/m against 2.7 kg of battery meant the piston
+# sagged 9.4 % of its travel at 11.7 deg of pitch, so commanded 50 % achieved 59.5 %. A leadscrew is
+# not a spring: both drives stiffened to 1e5 N/m in the prefab, and the LCG now holds 50.06 %.
+# Final: 0.5648 kg at z +0.30470.
 ballast_site=tank
 ballast_apply=true
 ballast_autosolve=false
 ballast_mass=0.5648
-ballast_z=0.46086
+ballast_z=0.30470
 
 # --- unused by a replay run, kept so the file stays a valid DOF config ---------------------
 mode=VBS
