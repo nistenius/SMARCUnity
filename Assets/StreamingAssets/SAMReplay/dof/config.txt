@@ -1,16 +1,47 @@
-# One-DOF rig. run=1 -> SAMBuoyancyTrim disables the competing writers and enables SAMDofTest.
-# NOTE disable_v2=true removes ALL damping (ZeroPhysXDamping has already wiped the ForcePoint
-# drag in Awake), which made the 14:33 run oscillate at +/-87 deg pitch. Keep it false.
-run=1
+# TANK REPLAY configuration — 2026-09-13.
+#
+# run=0 so SAMBuoyancyTrim does NOT hijack the vehicle for a DOF run; SAMTankReplay stays enabled.
+#
+# THE TRIM LINE THAT MATTERS: the real vehicle was NEUTRAL AT VBS 24 % (measured two ways on
+# 2026-09-13 — the coasting analysis of the synched tank set, and the June-10 replay bag itself,
+# whose VBS median is 24.0 %).  The sim is ballast-trimmed to be neutral at VBS 50 %.  Replaying
+# the recorded VBS into a sim trimmed 26 points away gives the sim +0.63 N the real vehicle never
+# had, i.e. ~1 m of spurious rise per 10 s window — which is the 2026-09-11 replay's headline
+# depth error.  So the sim is trimmed HERE to the vehicle AS TESTED, not to the design target.
+#
+#   sam_auv_v1        (legacy cloud, no ballast links) -> SAMBuoyancyTrim reads trim_neutral_vbs
+#   sam_auv_v1.strips (27 strips + ballast links)      -> SAMBuoyancyTrim self-disables,
+#                                                         SAMBallastTrim reads ballast_mass
+# Both key sets live here; each vehicle ignores the other's.
+run=0
+
+# --- run (a): sam_auv_v1, legacy buoyancy cloud -------------------------------------------
+trim_apply=true
+trim_neutral_vbs=24
+trim_displaced_litres=16.90
+
+# --- run (b): the .strips prefabs, strip cloud + rail ballast -------------------------------
+# 2026-09-13, AFTER the transceiver fix: 1.6145 kg was solved when 2.000 kg of transceiver mass was
+# counted but never felt, so it carried that error as extra lead.  With the two ArticulationBodies
+# enabled the solver feels that mass and 1.6145 kg is 1.05 kg too heavy -- MEASURED in Play, the
+# SAMBallastTrim report read "VBS 5 %: B-W -9.83 N sinks".
+# Re-solved against the SIMULATED CG (ballast_trim.py --neutral-vbs 24 --sim-ref, which corrects
+# base_link's UrdfInertial CoM re-push, -0.08811 kg m): 0.5648 kg at z +0.46086.
+ballast_site=tank
+ballast_apply=true
+ballast_autosolve=false
+ballast_mass=0.5648
+ballast_z=0.46086
+
+# --- unused by a replay run, kept so the file stays a valid DOF config ---------------------
 mode=VBS
-tag=m
+tag=replay
 settle=8
 step=15
 timescale=1
 start_depth=2.4
 hold_during_settle=false
 disable_v2=false
-neutral_vbs=50
+neutral_vbs=24
 neutral_lcg=50
 steps=50,100,50,0,50
-trim_displaced_litres=16.90
