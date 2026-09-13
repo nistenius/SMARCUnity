@@ -130,3 +130,28 @@ Desktop.ini
 Assets/TextMesh\ Pro/
 Assets/TextMesh\ Pro.meta
 Assets/msgbrowser_settings.asset*
+
+# SAM replay + one-DOF rig DATA (2026-09-12). ~38 MB of tank-recording CSVs and generated
+# run outputs. The CSVs come from the tank bags (see data-cube/docs/2026-09-11-sam-tank-
+# sysid-data-and-tuning-plan.md); the reports/CSVs under dof/ are written by SAMDofTest on
+# every run. Only dof/config.txt - the run input - is tracked.
+Assets/StreamingAssets/SAMReplay/*.csv
+Assets/StreamingAssets/SAMReplay/*.csv.meta
+Assets/StreamingAssets/SAMReplay/out/
+Assets/StreamingAssets/SAMReplay/out.meta
+Assets/StreamingAssets/SAMReplay/dof/*.csv
+Assets/StreamingAssets/SAMReplay/dof/*.csv.meta
+Assets/StreamingAssets/SAMReplay/dof/*_summary.txt
+Assets/StreamingAssets/SAMReplay/dof/*_summary.txt.meta
+Assets/StreamingAssets/SAMReplay/dof/trim_report.txt*
+Assets/StreamingAssets/SAMReplay/dof/rig_report.txt*
+Assets/StreamingAssets/SAMReplay/dof/force_report.txt*
+
+# Unity crash-recovery scenes and editor backups
+Assets/_Recovery/
+Assets/_Recovery.meta
+Assets/Scenes/*.BACKUP-*.unity.txt*
+
+# Data Cube replay JSON (8.5 MB, generated Aug 2026 from rosbags by the replay exporter)
+Assets/StreamingAssets/DataCubeReplays/
+Assets/StreamingAssets/DataCubeReplays.meta

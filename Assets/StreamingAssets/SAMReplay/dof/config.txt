@@ -1,0 +1,16 @@
+# One-DOF rig. run=1 -> SAMBuoyancyTrim disables the competing writers and enables SAMDofTest.
+# NOTE disable_v2=true removes ALL damping (ZeroPhysXDamping has already wiped the ForcePoint
+# drag in Awake), which made the 14:33 run oscillate at +/-87 deg pitch. Keep it false.
+run=1
+mode=VBS
+tag=m
+settle=8
+step=15
+timescale=1
+start_depth=2.4
+hold_during_settle=false
+disable_v2=false
+neutral_vbs=50
+neutral_lcg=50
+steps=50,100,50,0,50
+trim_displaced_litres=16.90

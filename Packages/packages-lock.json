@@ -26,6 +26,12 @@
       "dependencies": {},
       "hash": "c8205ffcd945cd176f4493a8ab25db093efef779"
     },
+    "com.oceanverse.smarcsim": {
+      "version": "file:../../oceanverse/plugins/oceanverse-smarcsim/unity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.smarc.assets": {
       "version": "file:../../SMARCAssets",
       "depth": 0,
