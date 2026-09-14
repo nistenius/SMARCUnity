@@ -1,0 +1,18 @@
+# v2.4 OPEN-WATER-INFORMED set, 2026-09-14 (doc 2026-09-14-damping-added-mass-audit.md §6-§7):
+#  surge from the six open-water coasts (line slack): X_u 1.1, X_uu 4.0  (tank pair 2.61/8.92 is ~2x high)
+#  cross-flow drag: VBS piston 250 ml/stroke = 0.0245 N per % (wiki), Askö neutral 17 % from rises (VBS 0) + sink (VBS 50) -> F_b 0.42 N,
+#  Z_ww 140 (quadratic; linear alternative Z_w 9.5); Y_vv set equal (same cross-flow, supported by the 2 deg drift angle)
+#  roll damping from the 0.58 Hz small-amplitude decays (zeta ~0.045, I+A 0.1755): K_p 0.058
+#  added mass from HW4 on the real hull: 15.2 sway/heave, 2.0 pitch/yaw
+#  N_rr kept at 10: steady turns at 7 deg are consistent with N_r 13u + N_rr 10 given the v2.3 N_d
+tag=v24ow
+xu=1.1
+xuu=4.0
+yvv=140
+zww=140
+kp=0.058
+nrr=10
+ma_v=15.2
+ma_w=15.2
+ma_q=2.0
+ma_r=2.0

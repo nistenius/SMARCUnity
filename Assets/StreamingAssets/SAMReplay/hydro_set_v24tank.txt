@@ -1,0 +1,13 @@
+# v2.4 with the TANK surge pair kept — the A/B that tests whether the tank gate itself prefers the higher drag
+# (a tank effect the sim cannot reproduce) or the open-water law.
+tag=v24tank
+xu=2.61
+xuu=8.92
+yvv=140
+zww=140
+kp=0.058
+nrr=10
+ma_v=15.2
+ma_w=15.2
+ma_q=2.0
+ma_r=2.0

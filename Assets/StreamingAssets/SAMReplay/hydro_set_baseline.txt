@@ -1,0 +1,13 @@
+# BASELINE = the prefab as committed 2026-09-14 (v2.3 tail model, tank surge pair, SAM.py quadratics, Lamb added mass).
+# Copy to hydro_overrides.txt to run it with a tag; or simply delete hydro_overrides.txt (no tag).
+tag=base
+xu=2.61
+xuu=8.92
+yvv=50
+zww=50
+kp=0.011
+nrr=10
+ma_v=16.315
+ma_w=16.315
+ma_q=1.609
+ma_r=1.609
