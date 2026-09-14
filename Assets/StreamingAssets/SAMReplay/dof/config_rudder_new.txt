@@ -1,0 +1,25 @@
+# NEW tail model: slender-body flux + body lift + ring wing fin + deflected-ring lift (2026-09-14)
+tag=new
+tail_model=new
+run=0
+trim_apply=true
+trim_neutral_vbs=24
+trim_displaced_litres=16.90
+ballast_site=tank
+ballast_apply=true
+ballast_autosolve=false
+ballast_mass=0.5648
+ballast_z=0.30470
+# --- RUDDER / released-heading test, 2026-09-14 (SAMDofTest on the sam2.2.strips root) ---------
+# steps: 0,0 = 60 s released heading at cruise rpm, nozzle centred; then +7, 0, -7, 0 (30 s each)
+mode=Rudder
+settle=8
+step=30
+timescale=1
+start_depth=2.4
+hold_during_settle=true
+disable_v2=false
+neutral_vbs=24
+neutral_lcg=50
+cruise_rpm=500
+steps=0,0,7,0,-7,0
