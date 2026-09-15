@@ -10,7 +10,7 @@ ballast_apply=true
 ballast_autosolve=false
 ballast_mass=0.5648
 ballast_z=0.30470
-# --- RUDDER / released-heading test, 2026-09-14 (SAMDofTest on the sam2.2.strips root) ---------
+# --- RUDDER / released-heading test, 2026-09-14 (SAMDofTest on the sam21.strips root) ---------
 # steps: 0,0 = 60 s released heading at cruise rpm, nozzle centred; then +7, 0, -7, 0 (30 s each)
 mode=Rudder
 settle=8

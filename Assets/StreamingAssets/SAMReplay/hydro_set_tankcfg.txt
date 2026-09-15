@@ -1,0 +1,19 @@
+# TANK-CONFIGURATION SET, 2026-09-15 = the bare-hull set with the TANK surge pair.
+# MEASURED 2026-09-15 (gates 1-3 on the June-10 bag): the tank surge pair is the ONLY thing the tank replay
+# gate can see.  v24tank (this set) reproduces the prefab baseline to 2 decimals on every metric, while
+# v24ow (open-water surge) degrades surge rms 0.062 -> 0.100 and mean position 0.30 -> 0.44 m.  So the other
+# five coefficients (Y_vv, Z_ww, K_p, added mass, N_rr) are NEUTRAL on this bag and the whole tank/open-water
+# difference is surge drag.  The tank vehicle carries the ~0.1 L nose bumper (Ivan: on for every tank test
+# since an early crash; the vehicle was trimmed to compensate its flotation, so only its DRAG is uncorrected)
+# plus wall/shallow effects.  Use this set ONLY to replay tank bags; hydro_set_bare.txt is the vehicle.
+tag=tankcfg
+xu=2.61
+xuu=8.92
+yvv=140
+zww=140
+kp=0.058
+nrr=10
+ma_v=15.2
+ma_w=15.2
+ma_q=2.0
+ma_r=2.0

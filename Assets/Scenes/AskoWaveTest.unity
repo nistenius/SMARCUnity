@@ -8628,7 +8628,7 @@ PrefabInstance:
     - target: {fileID: 2337004928620230107, guid: 5365e930143114fbbaf5171cfc918a6b,
         type: 3}
       propertyPath: absorptionDistance
-      value: 59.4
+      value: 75.6
       objectReference: {fileID: 0}
     - target: {fileID: 2337004928620230107, guid: 5365e930143114fbbaf5171cfc918a6b,
         type: 3}
@@ -9152,7 +9152,7 @@ PrefabInstance:
     - target: {fileID: 3767765934768285763, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
       propertyPath: m_Name
-      value: sam2.2.strips
+      value: sam21.strips
       objectReference: {fileID: 0}
     - target: {fileID: 3916953189635456986, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
@@ -9248,6 +9248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201000000000000002, guid: ce8511200665c476fa5814bcf550d9a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7204155397633281650, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
