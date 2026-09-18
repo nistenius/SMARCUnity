@@ -1,0 +1,11 @@
+# DJURO open-water replays, 2026-09-15.  These are the first replay references with ABSOLUTE HEADING:
+# attitude comes from /sam/sbg/ekf_euler (10 Hz), not from an integrated gyro, so the heading column of
+# score_replay.py is finally scoring against truth rather than against dead reckoning.
+# Position is still dead-reckoned from the DVL (no MoCap in open water) — over a 10 s restart window that is
+# centimetres, which is what the gate scores.
+# Run in AskoWaveTest, calm sea, sam21.strips, WorldOffset (1540, 0, 792), RestartEverySeconds 10, TimeScale 4.
+# ~10 min of wall clock for the three.  zigzag is the one that matters: held nozzle steps at the +-0.100 rad
+# stop with a flat commanded rpm, i.e. the steering-authority question in one bag.
+ow_2024-11-18_djuro_zigzag.csv
+ow_2024-11-18_djuro_good.csv
+ow_2024-11-18_djuro_good2.csv
