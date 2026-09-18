@@ -1,0 +1,7 @@
+# Open-water replays (AskoWaveTest scene, calm sea, SAMTankReplay on sam2.2.strips, WorldOffset at the open-water spot).
+# The tank gate (rosbag2_2025_06_10-17_57_49.csv) runs in the KTHTankStrips scene with this file renamed away.
+ow_rosbag2_2025_06_15-17_27_13.csv
+ow_rosbag2_2025_06_15-17_42_15.csv
+ow_rosbag2_2025_06_16-15_35_35.csv
+ow_rosbag2_2025_06_16-19_23_39.csv
+ow_rosbag2_2025_06_16-19_52_53.csv

@@ -1,7 +1,9 @@
-# Open-water replays (AskoWaveTest scene, calm sea, SAMTankReplay on sam2.2.strips, WorldOffset at the open-water spot).
-# The tank gate (rosbag2_2025_06_10-17_57_49.csv) runs in the KTHTankStrips scene with this file renamed away.
-ow_rosbag2_2025_06_15-17_27_13.csv
-ow_rosbag2_2025_06_15-17_42_15.csv
-ow_rosbag2_2025_06_16-15_35_35.csv
-ow_rosbag2_2025_06_16-19_23_39.csv
-ow_rosbag2_2025_06_16-19_52_53.csv
+# ACTIVE playlist = the DJURO open-water replays, 2026-09-15.  (The Asko list is kept as
+# replay_playlist_asko.txt; the Djuro list is also in replay_playlist_djuro.txt.)
+# These are the first replay references with ABSOLUTE HEADING: attitude from /sam/sbg/ekf_euler at 10 Hz
+# instead of an integrated gyro, so score_replay.py's heading column scores against truth.
+# Position is still dead-reckoned from the DVL; over a 10 s restart window that is centimetres.
+# Run in AskoWaveTest, calm sea, sam21.strips, WorldOffset (1540, 0, 792), RestartEverySeconds 10, TimeScale 4.
+ow_2024-11-18_djuro_zigzag.csv
+ow_2024-11-18_djuro_good.csv
+ow_2024-11-18_djuro_good2.csv
