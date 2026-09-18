@@ -2855,7 +2855,7 @@ PrefabInstance:
     - target: {fileID: 3767765934768285763, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
       propertyPath: m_Name
-      value: sam_auv_v1
+      value: sam21
       objectReference: {fileID: 0}
     - target: {fileID: 3767765934768285763, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
@@ -4737,7 +4737,7 @@ MonoBehaviour:
   WaterPreset: {fileID: 1519692097247348597}
   SonarBeams: []
   Surface: {fileID: 1519692097247348595}
-  VehicleName: sam_auv_v1
+  VehicleName: sam21
   Vehicle: {fileID: 0}
   VehicleAimChildName: base_link
   DisableScriptsOnOtherCameras:
@@ -4786,7 +4786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c1f97e66e8f544beaed8fe880d07c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SMARC.SMARCAssets::Visualizers.SonarMapAccumulator
-  RobotName: sam_auv_v1
+  RobotName: sam21
   AutoFindSonars: 1
   Sonars: []
   IncludeMBES: 1
@@ -5307,7 +5307,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  VehicleName: sam_auv_v1
+  VehicleName: sam21
   VehicleAimChildName: base_link
   SurfacedDepthM: 0.35
   IdleSpeedThreshold: 0.12

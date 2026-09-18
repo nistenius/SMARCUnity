@@ -700,7 +700,7 @@ MonoBehaviour:
   SonarBeams: []
   Waterfall: {fileID: 885120882}
   Surface: {fileID: 1970778960}
-  VehicleName: sam_auv_v1
+  VehicleName: sam21
   Vehicle: {fileID: 885120881}
   VehicleAimChildName: base_link
   DisableScriptsOnOtherCameras:
@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c1f97e66e8f544beaed8fe880d07c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SMARC.SMARCAssets::Visualizers.SonarMapAccumulator
-  RobotName: sam_auv_v1
+  RobotName: sam21
   AutoFindSonars: 1
   Sonars: []
   IncludeMBES: 1
@@ -8226,7 +8226,7 @@ PrefabInstance:
     - target: {fileID: 3767765934768285763, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
       propertyPath: m_Name
-      value: sam_auv_v1
+      value: sam21
       objectReference: {fileID: 0}
     - target: {fileID: 3767765934768285763, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
@@ -9254,6 +9254,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7201000000000000002, guid: ce8511200665c476fa5814bcf550d9a0,
+        type: 3}
+      propertyPath: WorldOffset.x
+      value: 1456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201000000000000002, guid: ce8511200665c476fa5814bcf550d9a0,
+        type: 3}
+      propertyPath: WorldOffset.z
+      value: 810
+      objectReference: {fileID: 0}
     - target: {fileID: 7204155397633281650, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
       propertyPath: m_Enabled
@@ -9347,7 +9357,7 @@ PrefabInstance:
     - target: {fileID: 8986356567178910094, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1540
+      value: 3834
       objectReference: {fileID: 0}
     - target: {fileID: 8986356567178910094, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
@@ -9357,7 +9367,7 @@ PrefabInstance:
     - target: {fileID: 8986356567178910094, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 792
+      value: -508
       objectReference: {fileID: 0}
     - target: {fileID: 8986356567178910094, guid: ce8511200665c476fa5814bcf550d9a0,
         type: 3}

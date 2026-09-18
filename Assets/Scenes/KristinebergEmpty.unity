@@ -2004,7 +2004,7 @@ PrefabInstance:
     - target: {fileID: 3767765934768285763, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
       propertyPath: m_Name
-      value: sam_auv_v1
+      value: sam21
       objectReference: {fileID: 0}
     - target: {fileID: 5400872352063004192, guid: c1e7da780778545138405fc308f5eb43,
         type: 3}
