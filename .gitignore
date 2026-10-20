@@ -155,3 +155,9 @@ Assets/Scenes/*.BACKUP-*.unity.txt*
 # Data Cube replay JSON (8.5 MB, generated Aug 2026 from rosbags by the replay exporter)
 Assets/StreamingAssets/DataCubeReplays/
 Assets/StreamingAssets/DataCubeReplays.meta
+
+# OCEANVERSE restricted derivatives (2026-10-10): Gaussian-splat assets the BundleSiteBuilder makes from SYNTHETIC
+# insets of a RESTRICTED bundle (Koster KelpIT: conditioned on the FUK sea chart). Never in git; regenerate with
+# OV `synthetic at …` -> `export smarc_unity` -> SMARC > Rebuild Last Curated Bundle.
+/[Aa]ssets/OceanverseRestricted/
+/[Aa]ssets/OceanverseRestricted.meta

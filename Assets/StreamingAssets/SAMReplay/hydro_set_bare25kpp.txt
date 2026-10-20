@@ -1,0 +1,27 @@
+# 2026-09-25: bare25 + K_pp 0.035 (the prefab's 40 was a SAM.py prior, grade U, never measured).
+# Archived free roll decays: 2.6-4.8 deg -> 0.54-0.60 Hz, decay 0.12-0.19 1/s; 12.6 deg -> 0.35 Hz, decay 0.04 1/s.
+# Quadratic damping would make the large-amplitude decay FASTER; it is slower, so the 12.6 deg decay bounds K_pp:
+# (8/3pi) K_pp w phi0 <= 2 sigma I_tot, I_tot = K_p/(2 sigma_small) = 0.18 -> K_pp <= 0.035 N m s^2 (upper bound, used as
+# the value: Ivan 2026-09-25, 'definitely not zero, use the estimate'). K_pp 40 with the measured I_roll 0.052 was the
+# NaN blow-up on cone contact (FIX LIST 0 in the docking command sheet). Replace with T1 roll decays at 5/15/25 deg.
+# BARE-HULL OPEN-WATER SET, 2026-09-15.  Surge from a JOINT fit over 17 coasts from TWO independent
+# campaigns two years apart — Asko 2025 (9 coasts, u0 0.21-0.56) and Djuro 2024 (8 coasts, u0 0.57-1.05):
+# X_u 0.0, X_uu 6.0, rms 0.044 m/s (each set alone: 1.20/3.75 rms 0.039 and 0.00/5.75 rms 0.041).
+# The two campaigns agree on TOTAL drag to 1 % at 0.7 m/s, so this is the bare vehicle as flown in open water.
+# NOT the tank: the tank pair 2.61/8.92 is ~2x this at every speed, and the tank vehicle carries the
+# ~0.1 L rubber-foam NOSE BUMPER (fitted for every tank test since an early crash, never fitted in open water)
+# plus wall/shallow effects.  Use hydro_set_tankcfg.txt to replay a TANK bag.
+# Everything else as v24ow: cross-flow 140 from the Asko rises + the VBS force line, K_p 0.058 from the
+# 0.58 Hz roll decays, added mass 15.2/2.0 from HW4 on the real hull, N_rr 10 unmeasured.
+tag=bare25kpp
+xu=0.0
+xuu=6.0
+yvv=140
+zww=140
+kp=0.058
+nrr=10
+ma_v=15.2
+ma_w=15.2
+ma_q=2.0
+ma_r=2.0
+kpp=0.035

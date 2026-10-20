@@ -1,9 +1,11 @@
-[SAMBallastTrim] at the OPERATING pose, 3.0 s in -- THIS is the trim that acts
-[SAMBallastTrim] site rho 1005 kg/m3, displacement 16.901 L (27 strips, per-point volumes) -> B = 166.63 N
-   ballast 0.5648 kg total = port 0.2824 + stbd 0.2824, at x +/-0.070, y -0.030, z +0.305 APPLIED
-   solve at this density wants 0.6342 kg at z +0.1739 (reported only)
-   total 16.9161 kg, CB (base_link) (0.00, 0.00, 0.00), CG (0.00, -0.01, 0.00)
-   BG 11.41 mm, longitudinal CB-CG -3.52 mm -> pitch moment -0.583 N m, roll moment -0.096 N m
-   VBS   5 %: B-W +1.79 N  FLOATS   (target: floats)
-   VBS  50 %: B-W +0.68 N  off neutral
-   VBS 100 %: B-W -0.55 N  SINKS
+[SAMBallastTrim] sam22 at the OPERATING pose, 3.0 s in -- THIS is the trim that acts  (4 'sam22.ballast_*' override(s) from config.txt)
+[SAMBallastTrim] site rho 997 kg/m3, displacement 16.901 L (27 strips, per-point volumes) -> B = 165.30 N
+   ballast 0.4971 kg total = port 0.2486 + stbd 0.2486, at x +/-0.070, y -0.030, z +0.127 APPLIED; station in effect z +0.3047 (set as link CoM)
+   of which SITE ballast -0.3820 kg: spec 0.8791 kg trims the hull at 1020 kg/m3, the site is 997 -> same neutral VBS here
+   solve at this density wants -8.6995 kg at z -0.2537 (reported only)
+   !! NEGATIVE ballast: the vehicle is heavier than its displacement here.
+   total 26.0470 kg, CB (base_link) (0.00, 0.00, 0.00), CG (0.00, 0.00, -0.08)
+   BG 3.74 mm, longitudinal CB-CG 80.69 mm -> pitch moment 20.617 N m, roll moment 0.000 N m
+   VBS   5 %: B-W -89.12 N  sinks   (target: floats)
+   VBS  50 %: B-W -90.22 N  off neutral
+   VBS 100 %: B-W -91.44 N  SINKS

@@ -37,11 +37,39 @@ trim_displaced_litres=16.90
 # sagged 9.4 % of its travel at 11.7 deg of pitch, so commanded 50 % achieved 59.5 %. A leadscrew is
 # not a spring: both drives stiffened to 1e5 N/m in the prefab, and the LCG now holds 50.06 %.
 # Final: 0.5648 kg at z +0.30470.
+# 2026-10-01: RE-TRIMMED to the KTH tank vehicle of 2026-10-01 (208 g rail lead, swapped battery):
+# MEASURED neutral VBS 58.7-59.9 % at 1 m (nz_1001a / inc_1001a HOLD means; sam_hydro_coeffs_v2_3.yaml trim_2026_10_01).
+# Sim before: B-W +0.46 N at VBS 5 %, -0.64 at 50 % => 0.02444 N/% and neutral 23.8 % (the 2025 tank trim).
+# Target neutral 59.3 % => B-W at VBS 5 % must be +1.327 N => 0.867 N less weight => ballast 0.5648 -> 0.4764 kg.
+# (LESS lead in the sim even though the real hull GAINED 208 g: the sim was trimmed to the 2025 vehicle, which was
+# 35 VBS-points heavier than the 2026-10-01 one -- the ballast here is a trim residual, not a model of the lead.)
+# Station unchanged (0.30470): the pitch trim waits for the LCG count->mm measurement (v2.3 open item).
+# Surface breakaway was 72 % on the real hull (trapped air?) -- the sim has no compressible air, so it will
+# break away near 59 %; that difference is expected. Previous value kept: ballast_mass=0.5648 (2026-09-14).
 ballast_site=tank
 ballast_apply=true
 ballast_autosolve=false
-ballast_mass=0.5648
+ballast_mass=0.4764
 ballast_z=0.30470
+# sam22 only (2026-10-09). The keys above were solved for sam21. sam22.strips' TCG + thrust-vector group put its CG
+# 3.7 mm further forward: with sam21's station it hung 3.2 deg nose down at the surface (GPS antenna 37 mm under water,
+# no fix ever) and had -0.53 N m of nose-down moment submerged (BG 4.7 mm). Its own solve (ballast_report_sam22.txt,
+# operating pose) wants the same mass at z +0.210 (= +0.217 at the 0.6116 kg applied). Applied as the ballast links'
+# centre of mass, so the prefab is untouched.
+# KOSTER (2026-10-11, Ivan: "ballast and trim sam22 for the Koster water density with correction ballasts").
+# Solved at the site (ballast_report_sam22.txt, KosterKelpit2026Curated, rho 1019.6): 0.8791 kg at z +0.1845.
+# The spec density is now Koster's, so the automatic SITE compensation is ~0 and the ballast IS the Koster trim
+# (correction ballast +0.4027 kg over the tank spec 0.4764). Tank value kept: sam22.ballast_z=0.2170 (spec 0.4764 kg).
+sam22.ballast_density=1019.6
+sam22.ballast_mass=0.8791
+# LEVEL AT LCG 50 % (2026-10-12, Ivan: "the ballast trim should be placed such that it's level, pitch 0, at LCG 50 %").
+# MEASURED in Play: at z +0.1845 the hull was level submerged at LCG ~40 % (VBS ~57 %, koster10t/u spot dives); at z +0.1618
+# (-22.7 mm) LCG 50 % gave +4 deg nose-down submerged, i.e. level at ~44 % -> 0.18 %-LCG per mm of station. Moment check:
+# battery 2.7 kg x 1.54 mm per % = 0.041 N m per %; 10 % = 0.41 N m over 0.8791 kg x g = 48 mm. Station 58 mm aft of the
+# solve's value. The solve's 'pitch moment 0.000' was at the pose 3 s after Start, before any LCG command, not at LCG 50.
+# At the SURFACE with the VBS empty the hull trims nose-down (the VBS water sits aft): level there at LCG ~40 (trim_check.py).
+sam22.ballast_z=0.1265
+sam22.ballast_station_com=true
 
 # --- unused by a replay run, kept so the file stays a valid DOF config ---------------------
 mode=VBS
